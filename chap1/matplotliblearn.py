@@ -35,6 +35,7 @@ plt.show()
 
 from matplotlib.image import imread
 
+
 img = imread('lena.png')  # imread: 이미지 리딩
 
 plt.imshow(img)  # imshow: 이미지 렌더
